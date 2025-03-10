@@ -32,7 +32,8 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     transform: rotate(90deg);
-    background-image: url('/assets/Landing/letras_dgo.jpeg');
+    background: linear-gradient(#9d18b480, #9d18b480), 
+                url('/assets/Landing/letras_dgo.jpeg') center/cover no-repeat;
     background-size: cover;
     background-position: center;
     background-clip: text;

@@ -27,16 +27,16 @@ export default function Login() {
             <div className="Titulo">
               <h1>Registro</h1>
             </div>
-            <div className="Formulario yes">
+            <div className="Formulario2">
               <input type="text" placeholder="Nombre" />
               <input type="email" placeholder="Correo" />
               <input type="password" placeholder="Contraseña" />
-              <button className="Btn_Formulario">Registrate</button>
+              <button className="Btn_Formulario_R">Registrate</button>
             </div>
             <div className="Redes">
-              <div>
+              <div className="otro2">
                 <h2>O registrate con una red social</h2>
-              </div>
+              </div> 
               <div className="Btns_Redes">
                 <button className="Google"><FaGoogle /></button>
                 <button className="Facebook"><FaFacebookF /></button>

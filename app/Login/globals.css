@@ -186,13 +186,24 @@ h5{
   margin-top: -170px;
 }
 
-.yes {
+.Formulario2 {
   display: grid;
   justify-items: center;
   margin-top: -170px;
 }
 
 .Formulario input {
+  height: 50px;
+  width: 90%;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #DCDBDB;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: -5%;
+}
+
+.Formulario2 input {
   height: 50px;
   width: 90%;
   padding: 20px;
@@ -226,6 +237,20 @@ h5{
   background-color: #45a3c0;
 }
 
+.Btn_Formulario_R {
+  background-color: #6ECEEA;
+  height: 60px;
+  width: 90%;
+  border: none;
+  border-radius: 20px;
+  font-size: 40px;
+  color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Btn_Formulario_R:hover {
+  background-color: #45a3c0;
+}
 /*============
 Redes Sociales
 ============*/
@@ -309,6 +334,14 @@ Medias Queries
     height: 50%;
   }
 
+  .Contenedor.active .Registro {
+    opacity: 1;
+    margin-left: 0%;
+    height: 30%;
+    width: 100%;
+    margin-top: 43%;
+  }
+
   .Msj_Registro{
     margin-left: 0%;
     margin-top: -50%;
@@ -324,9 +357,27 @@ Medias Queries
     margin-top: 3%;
   }
 
+  .Msj_Login {
+    z-index: 999;
+    margin-top: -53%;
+    width: 100%;
+  }
+
+  .Msj_Login button {
+    font-size: 200%;
+    width: 40%;
+    margin-top: 10px;
+  }
+
   .Formulario {
     margin-top: 5%;
     gap: 50%;
+  }
+
+  .Formulario2 {
+    display: grid;
+    gap: 40%;
+    margin-top: 1%;
   }
 
   .Btn_Formulario {
@@ -345,6 +396,10 @@ Medias Queries
 
   .otro {
     margin-top: -12%;
+  }
+
+  .otro2 {
+    margin-top: -10%;
   }
 
   .Imagen {
@@ -373,6 +428,15 @@ Medias Queries
     border-radius: 100px;
   }
 
+  .Contenedor.active .Imagen {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .Contenedor.active .Fondo {
+    left: -100%;
+  }
+
   .Btns_Redes {
     width: auto;
     gap: 20px;
@@ -396,6 +460,11 @@ Medias Queries
   h4 {
     font-size: 180%;
   }
+
+  h6 {
+    font-size: 260%;
+    text-align: none;
+  }
 }
 @media (max-width: 680px) and (min-width: 530px){
   .Contenedor {
@@ -406,6 +475,14 @@ Medias Queries
     margin-top: 30%;
     width: 100%;
     height: 50%;
+  }
+
+  .Contenedor.active .Registro {
+    opacity: 1;
+    margin-left: 0%;
+    height: 30%;
+    width: 100%;
+    margin-top: 30%;
   }
 
   .Msj_Registro{
@@ -422,9 +499,27 @@ Medias Queries
     margin-top: 3%;
   }
 
+  .Msj_Login {
+    z-index: 999;
+    margin-top: -42%;
+    width: 100%;
+  }
+
+  .Msj_Login button {
+    font-size: 200%;
+    width: 40%;
+    margin-top: 10px;
+  }
+
   .Formulario {
     margin-top: 5%;
-    gap: 10%;
+    gap: 70%;
+  }
+
+  .Formulario2 {
+    display: grid;
+    gap: 45%;
+    margin-top: 1%;
   }
 
   .Btn_Formulario {
@@ -433,6 +528,7 @@ Medias Queries
 
   .Redes {
     margin-top: 47%;
+    display: grid;
   }
 
   .Recuperar {
@@ -441,6 +537,10 @@ Medias Queries
 
   .otro {
     margin-top: -12%;
+  }
+
+  .otro2 {
+    margin-top: -20%;
   }
 
   .Imagen {
@@ -469,6 +569,15 @@ Medias Queries
     border-radius: 170px;
   }
 
+  .Contenedor.active .Imagen {
+    width: 100vh;
+    left: 0%;
+  }
+  
+  .Contenedor.active .Fondo {
+    left: -100%;
+  }
+
   .Btns_Redes {
     width: auto;
     gap: 20px;
@@ -491,6 +600,11 @@ Medias Queries
 
   h4 {
     font-size: 180%;
+  }
+
+  h6 {
+    font-size: 260%;
+    text-align: none;
   }
 }
 
@@ -534,14 +648,21 @@ Medias Queries
 
   .Contenedor.active .Registro {
     opacity: 1;
-    margin-left: 12%;
+    margin-left: 0%;
     height: 30%;
+    width: 100%;
     margin-top: 28%;
   }
 
   .Formulario {
     margin-top: 5%;
     gap: 70%;
+  }
+
+  .Formulario2 {
+    display: grid;
+    gap: 45%;
+    margin-top: 1%;
   }
 
   .Btn_Formulario {
@@ -558,6 +679,10 @@ Medias Queries
 
   .otro {
     margin-top: -18%;
+  }
+
+  .otro2 {
+    margin-top: -20%;
   }
 
   .Imagen {
