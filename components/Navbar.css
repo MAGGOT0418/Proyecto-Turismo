@@ -10,6 +10,7 @@ Contenedor
     width: 85%;
     margin: 30px 120px;
     background-color: transparent;
+    z-index: 99;
 }
 
 .Barra::after {
